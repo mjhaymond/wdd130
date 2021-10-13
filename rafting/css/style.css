@@ -1,0 +1,103 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 238, 238);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 0.5rem;
+  background-color: rgb(89, 156, 187);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  grid-template-columns: 200px 1fr;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  float: left;
+  margin-right: 80px;
+}
+
+main {
+  margin: 1rem auto;
+  background-color: rgb(179, 215, 236);
+  padding: 1rem;
+  color: black;
+}
+
+footer {
+  grid-template-columns: 1fr 300px;
+}
+
+h1,
+h2 {
+  color: rgb(23, 56, 105);
+  font-size: 2.2rem;
+}
+
+/* Class Selectors */
+
+.mainnav {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.mainnav li {
+  flex: 1 1 auto;
+}
+
+.mainnav a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.mainnav a:hover {
+  color: rgb(23, 56, 105);
+  background-color: white;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 0px;
+  height: auto;
+}
+
+a:link {
+  color: rgb(250, 211, 52);
+}
+
+a:visited {
+  color: rgb(250, 211, 52);
+}
+
+a:active {
+  color: rgb(23, 56, 105);
+}
+
+.social {
+  float: right;
+}
