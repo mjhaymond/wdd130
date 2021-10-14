@@ -40,6 +40,9 @@ main {
   color: black;
 }
 
+main img {
+  box-shadow: 7px 7px 7px black;
+}
 footer {
   grid-template-columns: 1fr 300px;
 }
