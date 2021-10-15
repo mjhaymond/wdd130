@@ -9,7 +9,7 @@ body {
 header,
 footer {
   margin: 0 auto;
-  border: 10px solid rgb(23, 56, 105);
+  border: 5px solid rgb(23, 56, 105);
   padding: 0.5rem;
   background-color: #599cbb;
   display: grid;
@@ -45,6 +45,7 @@ main img {
 }
 footer {
   grid-template-columns: 1fr 300px;
+  color: white;
 }
 
 h1,
@@ -90,11 +91,11 @@ h2 {
 }
 
 a:link {
-  color: rgb(250, 211, 52);
+  color: white;
 }
 
 a:visited {
-  color: rgb(250, 211, 52);
+  color: white;
 }
 
 a:active {
