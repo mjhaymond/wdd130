@@ -38,10 +38,8 @@ li {
 main {
   margin: 1rem auto;
   background-color: rgb(179, 215, 236);
-  padding: 0rem;
+  padding: 1rem;
   color: black;
-  display: inline-grid;
-  border: 2px solid white;
 }
 
 main img {
@@ -53,7 +51,7 @@ footer {
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 20px;
   left: 275px;
   font-size: 2.2rem;
   color: rgb(13, 34, 65);
@@ -120,7 +118,7 @@ a:active {
 }
 
 .banner {
-  margin: 0px auto;
+  margin: 10px auto;
   position: relative;
   width: 100%;
 }
@@ -131,7 +129,7 @@ a:active {
   left: 50px;
   background: rgba(89, 156, 187, 0.1);
   border: 1px solid #fad334;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 20px 10px 20px;
   box-shadow: 0 0 30px black;
   color: white;
   text-align: center;
@@ -151,22 +149,26 @@ a:active {
 
 /*Grid work*/
 
-.one {
-  display: grid;
-  grid-template-columns: 425px 1fr;
-  grid-template-rows: 170px 170px;
+/*Section one*/
+.adventure {
+  text-align: center;
+  margin: 20px 0px 10px 0px;
 }
-
+.adventure2 {
+  margin: 25px 50px 25px 50px;
+}
+/*Section two*/
 .two {
   display: grid;
   grid-template-columns: 425px 1fr;
-  grid-template-rows: 170px 170px;
+  grid-template-rows: 200px 210px;
 }
 
 .enjoy {
   grid-row: 1;
   grid-column: 1;
   text-align: center;
+  margin-top: 80px;
 }
 
 .enjoy2 {
@@ -183,22 +185,39 @@ a:active {
   box-shadow: 0 0 10px black;
 }
 
-.photo2 {
-  grid-row: 1/2;
-  grid-column: 1;
-  border: 2px solid white;
-  box-shadow: 0 0 10px black;
+/*Section 3*/
+.three {
+  display: grid;
+  grid-template-columns: 525px 1fr;
+  grid-template-rows: 170px 210px;
 }
 
 .whitewater {
   grid-row: 1;
   grid-column: 2;
   text-align: center;
+  margin-top: 60px;
 }
 
 .whitewater2 {
   grid-row: 2;
   grid-column: 2;
   text-align: center;
-  margin: 0px 50px 0px 50px;
+  margin: 20px 50px 0px 50px;
+}
+
+.photo2 {
+  grid-row: 1/2;
+  grid-column: 1;
+  border: 2px solid white;
+  box-shadow: 0 0 10px black;
+}
+/*Section four*/
+.come {
+  text-align: center;
+  margin: 20px 0px 10px 0px;
+}
+
+.come2 {
+  margin: 25px 50px 25px 50px;
 }
