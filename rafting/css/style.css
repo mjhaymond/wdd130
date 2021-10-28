@@ -4,6 +4,8 @@ body {
   padding: 0;
   background-color: rgb(240, 238, 238);
   font-family: "Rubik", sans-serif;
+  max-width: 1020px;
+  margin: auto;
 }
 
 header,
@@ -36,22 +38,33 @@ li {
 main {
   margin: 1rem auto;
   background-color: rgb(179, 215, 236);
-  padding: 1rem;
+  padding: 0rem;
   color: black;
+  display: inline-grid;
+  border: 2px solid white;
 }
 
 main img {
   box-shadow: 7px 7px 7px black;
 }
 footer {
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: 1fr 175px;
   color: white;
 }
 
-h1,
-h2 {
-  color: rgb(23, 56, 105);
+h1 {
+  margin-top: 0;
+  left: 275px;
   font-size: 2.2rem;
+  color: rgb(13, 34, 65);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(13, 34, 65);
+  font-size: 2.2rem;
+  text-shadow: 0 0 30 black;
+  text-align: center;
 }
 
 /* Class Selectors */
@@ -104,4 +117,88 @@ a:active {
 
 .social {
   float: right;
+}
+
+.banner {
+  margin: 0px auto;
+  position: relative;
+  width: 100%;
+}
+
+.plantrip {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  background: rgba(89, 156, 187, 0.1);
+  border: 1px solid #fad334;
+  padding: 0px 0px 0px 0px;
+  box-shadow: 0 0 30px black;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  border: 1px solid white;
+  padding: 5px 10px;
+  text-decoration: none;
+  background: #599cbb;
+}
+
+.banner a:hover {
+  color: rgb(23, 56, 105);
+  background-color: white;
+}
+
+/*Grid work*/
+
+.one {
+  display: grid;
+  grid-template-columns: 425px 1fr;
+  grid-template-rows: 170px 170px;
+}
+
+.two {
+  display: grid;
+  grid-template-columns: 425px 1fr;
+  grid-template-rows: 170px 170px;
+}
+
+.enjoy {
+  grid-row: 1;
+  grid-column: 1;
+  text-align: center;
+}
+
+.enjoy2 {
+  grid-row: 2;
+  grid-column: 1;
+  text-align: center;
+  margin: 0px 50px 0px 50px;
+}
+
+.photo1 {
+  grid-row: 1/2;
+  grid-column: 2;
+  border: 2px solid white;
+  box-shadow: 0 0 10px black;
+}
+
+.photo2 {
+  grid-row: 1/2;
+  grid-column: 1;
+  border: 2px solid white;
+  box-shadow: 0 0 10px black;
+}
+
+.whitewater {
+  grid-row: 1;
+  grid-column: 2;
+  text-align: center;
+}
+
+.whitewater2 {
+  grid-row: 2;
+  grid-column: 2;
+  text-align: center;
+  margin: 0px 50px 0px 50px;
 }
