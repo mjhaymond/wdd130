@@ -10,9 +10,9 @@ body {
 
 header,
 footer {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   border: 5px solid rgb(23, 56, 105);
-  padding: 0.5rem;
+  /*padding: 0.5rem;*/
   background-color: #599cbb;
   display: grid;
   align-items: center;
@@ -36,6 +36,7 @@ li {
 }
 
 main {
+  /*This is where the box-sizing sizes are located*/
   margin: 1rem auto;
   background-color: rgb(179, 215, 236);
   padding: 1rem;
@@ -43,25 +44,29 @@ main {
 }
 
 main img {
-  box-shadow: 7px 7px 7px black;
+  box-shadow: 5px 5px 15px black;
+  border: 2px solid white;
 }
 footer {
   grid-template-columns: 1fr 175px;
   color: white;
+  padding: 20px;
 }
 
 h1 {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   left: 275px;
   font-size: 2.2rem;
   color: rgb(13, 34, 65);
   text-align: center;
+  box-sizing: border-box;
 }
 
 h2 {
   color: rgb(13, 34, 65);
   font-size: 2.2rem;
   text-align: center;
+  width: 95%;
 }
 
 /* Class Selectors */
@@ -69,8 +74,6 @@ h2 {
 .mainnav {
   list-style-type: none;
   display: flex;
-  padding: 0;
-  margin: 0;
   text-align: center;
   font-size: 20px;
 }
@@ -81,8 +84,9 @@ h2 {
 
 .mainnav a {
   display: block;
-  padding: 12px;
+  /*padding: 12px;*/
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .mainnav a:hover {
@@ -92,7 +96,6 @@ h2 {
 
 .page {
   max-width: 960px;
-  margin: 0 auto;
 }
 
 .logo {
@@ -117,9 +120,10 @@ a:active {
 }
 
 .banner {
-  margin: 10px auto;
+  /*margin: 10px auto;*/
   position: relative;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .plantrip {
@@ -132,6 +136,7 @@ a:active {
   box-shadow: 0 0 30px black;
   color: white;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .button {
@@ -139,6 +144,7 @@ a:active {
   padding: 5px 10px;
   text-decoration: none;
   background: #599cbb;
+  box-sizing: border-box;
 }
 
 .banner a:hover {
@@ -149,74 +155,97 @@ a:active {
 /*Grid work*/
 
 /*Section one*/
+
+.one {
+  width: 870px;
+  height: 120px;
+  padding: 0px;
+  margin: 30px;
+}
 .adventure {
   text-align: center;
-  margin: 20px 0px 10px 0px;
+  /*margin: 20px 0px 10px 0px;*/
+  box-sizing: border-box;
 }
 .adventure2 {
-  margin: 25px 50px 25px 50px;
+  /*margin: 25px 50px 25px 50px; This padding needs to be here to allow the space between the top of the picture and the paragraph above*/
+  box-sizing: border-box;
 }
 /*Section two*/
 .two {
   display: grid;
   grid-template-columns: 425px 1fr;
-  grid-template-rows: 200px 210px;
+  grid-template-rows: 150px 210px;
+  padding: 20px;
+  margin: 30px 0px 0px 0px;
 }
 
 .enjoy {
   grid-row: 1;
   grid-column: 1;
   text-align: center;
-  margin-top: 80px;
+  /*margin-top: 80px; This padding needs to be here to allow the enjoy title to be lowered closer to the paragraph below it*/
+  box-sizing: border-box;
 }
 
 .enjoy2 {
   grid-row: 2;
   grid-column: 1;
-  text-align: center;
-  margin: 0px 50px 0px 50px;
+  /*margin: 0px 50px 0px 50px;*/
+  box-sizing: border-box;
+  width: 95%;
 }
 
 .photo1 {
   grid-row: 1/2;
   grid-column: 2;
   border: 2px solid white;
-  box-shadow: 0 0 10px black;
+  box-shadow: 5px 5px 15px black;
+  width: 100%;
 }
 
 /*Section 3*/
 .three {
   display: grid;
   grid-template-columns: 525px 1fr;
-  grid-template-rows: 170px 210px;
+  grid-template-rows: 140px 210px;
+  margin: 20px;
 }
 
 .whitewater {
   grid-row: 1;
   grid-column: 2;
   text-align: center;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
+  box-sizing: border-box;
 }
 
 .whitewater2 {
   grid-row: 2;
   grid-column: 2;
-  text-align: center;
-  margin: 20px 50px 0px 50px;
+  /*margin: 20px 50px 0px 50px; This needs to be here to move the text away from the edges of the picture and the edge*/
+  box-sizing: border-box;
 }
 
 .photo2 {
   grid-row: 1/2;
   grid-column: 1;
   border: 2px solid white;
-  box-shadow: 0 0 10px black;
+  box-shadow: 5px 5px 15px black;
+  width: 90%;
+}
+
+.four {
+  margin: 20px;
 }
 /*Section four*/
 .come {
   text-align: center;
-  margin: 20px 0px 10px 0px;
+  /*margin: 20px 0px 10px 0px;*/
+  box-sizing: border-box;
 }
 
 .come2 {
-  margin: 25px 50px 25px 50px;
+  /*margin: 25px 50px 25px 50px;*/
+  box-sizing: border-box;
 }
