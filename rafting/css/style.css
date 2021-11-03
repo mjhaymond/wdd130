@@ -175,9 +175,7 @@ a:active {
 /*Section 3*/
 .three {
   display: grid;
-
-  grid-template-rows: 140px 210px;
-  margin: 20px;
+  margin-top: 50px;
 }
 
 .whitewater {
