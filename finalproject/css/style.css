@@ -23,26 +23,21 @@ main {
   background-color: rgb(176, 205, 203);
 }
 
-h1 {
-  padding: 10px 20px 0px 20px;
-}
-
-h2 {
-  padding: 10px 20px 0px 20px;
-}
-
-h3 {
-  padding: 10px 20px 0px 20px;
-}
-
+h1,
+h2,
+h3,
+h4,
 p {
-  padding: 10px 20px 20px 20px;
+  padding: 10px 20px 0px 20px;
 }
 
 header,
 footer {
   background-color: rgb(199, 201, 169);
   padding: 20px;
+}
+img {
+  padding: 10px 20px 0px 20px;
 }
 
 .imgstyleguide {
