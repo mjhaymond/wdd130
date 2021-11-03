@@ -14,7 +14,7 @@ body {
 header,
 footer {
   border: 5px solid rgb(23, 56, 105);
-  background-color: #599cbb;
+  background-color: #3f7690;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -53,17 +53,13 @@ footer {
   padding: 20px;
 }
 
-h1 {
-  left: 275px;
-  font-size: 2.2rem;
-  color: rgb(13, 34, 65);
-  text-align: center;
-  box-sizing: border-box;
-}
-
+h1,
 h2 {
   font-size: 2.2rem;
   text-align: center;
+}
+h1 {
+  padding: 25px;
 }
 
 .mainnav {
@@ -123,19 +119,14 @@ a:active {
   position: absolute;
   bottom: 30px;
   left: 50px;
-  background: rgba(89, 156, 187, 0.1);
-  border: 1px solid #fad334;
-  padding: 0px 20px 10px 20px;
   box-shadow: 0 0 30px black;
-  color: white;
-  text-align: center;
 }
 
 .button {
   border: 1px solid white;
   padding: 5px 10px;
   text-decoration: none;
-  background: #599cbb;
+  background: #3f7690;
   box-sizing: border-box;
 }
 
@@ -143,8 +134,6 @@ a:active {
   color: rgb(23, 56, 105);
   background-color: white;
 }
-
-/*Grid work*/
 
 /*Section two*/
 .two {
@@ -175,22 +164,19 @@ a:active {
 /*Section 3*/
 .three {
   display: grid;
-  margin-top: 50px;
+  margin: 50px 20px;
 }
 
 .whitewater {
-  grid-row: 1;
-  grid-column: 2;
-  text-align: center;
-  /*margin-top: 60px;*/
-  box-sizing: border-box;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  margin: 80px 25px 9px 25px;
 }
 
 .whitewater2 {
-  grid-row: 2;
-  grid-column: 2;
-  /*margin: 20px 50px 0px 50px; This needs to be here to move the text away from the edges of the picture and the edge*/
-  box-sizing: border-box;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  padding: 0px 40px;
 }
 
 .photo2 {
@@ -204,11 +190,9 @@ a:active {
 /*Section four*/
 .come {
   text-align: center;
-  /*margin: 20px 0px 10px 0px;*/
   box-sizing: border-box;
 }
 
 .come2 {
-  /*margin: 25px 50px 25px 50px;*/
   box-sizing: border-box;
 }
