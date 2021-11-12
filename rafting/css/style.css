@@ -197,6 +197,24 @@ a:active {
   box-sizing: border-box;
 }
 
+/*PAGE 2 RIVERS - PAGE 2 RIVERS*/
+h3 {
+  font-size: 25px;
+}
+
+.oregon,
+.washington {
+  /*display: grid;
+  grid-template-columns: 1fr 1fr;*/
+  gap: 40px;
+  margin: 40px 50px 0px 50px;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 /*PAGE 3 FAQ'S - PAGE 3 FAQ'S*/
 .faqs {
   display: grid;
@@ -208,7 +226,6 @@ a:active {
 h4 {
   color: #0d2241;
   font-size: 25px;
-  text-shadow: 3px 3px 5px white;
   padding-bottom: 10px;
 }
 
