@@ -203,8 +203,7 @@ h3 {
   font-size: 25px;
 }
 
-.oregon,
-.washington {
+.rivers {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 40px;
