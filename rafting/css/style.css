@@ -196,3 +196,40 @@ a:active {
 .come2 {
   box-sizing: border-box;
 }
+
+/*PAGE 3 FAQ'S - PAGE 3 FAQ'S*/
+.faqs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 40px 50px 0px 50px;
+}
+
+h4 {
+  color: #0d2241;
+  font-size: 25px;
+  text-shadow: 3px 3px 5px white;
+  padding-bottom: 10px;
+}
+
+.q1,
+.q2,
+.q3,
+.q4,
+.q5,
+.q6,
+.q7,
+.q8,
+.q9,
+.q10 {
+  background: rgba(255, 255, 255, 0.15);
+  border: 3px solid white;
+  padding: 20px;
+  box-shadow: 5px 5px 15px black;
+  text-align: center;
+}
+
+.callus {
+  text-align: center;
+  padding: 30px;
+}
