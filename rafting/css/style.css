@@ -117,16 +117,17 @@ a:active {
 
 .plantrip {
   position: absolute;
-  bottom: 30px;
-  left: 50px;
+  bottom: 40px;
+  right: 50px;
   box-shadow: 0 0 30px black;
+  color: #0d2241;
 }
 
 .button {
   border: 1px solid white;
-  padding: 5px 10px;
+  padding: 5px 20px;
   text-decoration: none;
-  background: #fcb040;
+  background-color: #fcb040;
   box-sizing: border-box;
 }
 
@@ -204,8 +205,8 @@ h3 {
 
 .oregon,
 .washington {
-  /*display: grid;
-  grid-template-columns: 1fr 1fr;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 40px;
   margin: 40px 50px 0px 50px;
 }
