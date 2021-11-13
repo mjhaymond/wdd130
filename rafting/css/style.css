@@ -7,7 +7,7 @@ body {
   font-size: 14px;
   background-color: rgb(240, 238, 238);
   font-family: "Rubik", sans-serif;
-  max-width: 1020px;
+  max-width: 960px;
   margin: auto;
 }
 
@@ -84,6 +84,9 @@ h1 {
   background-color: white;
 }
 
+.mainnav a:active {
+  text-decoration: underline;
+}
 .page {
   max-width: 960px;
 }
@@ -220,6 +223,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   margin: 40px 50px 50px 50px;
+  border: none !important;
 }
 
 .icon1 {
@@ -231,10 +235,6 @@ h3 {
   margin: 30px 10px 10px 10px;
   box-shadow: 0 0 10px black;
 }
-
-/*.icon2 {
-  grid-column: 3/4;
-}*/
 
 /*PAGE 3 FAQ'S - PAGE 3 FAQ'S*/
 .faqs {
