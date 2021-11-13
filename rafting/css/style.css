@@ -200,20 +200,41 @@ a:active {
 
 /*PAGE 2 RIVERS - PAGE 2 RIVERS*/
 h3 {
-  font-size: 25px;
+  font-size: 35px;
+  margin: 40px 50px 0px 50px;
+  text-align: center;
+}
+
+.paragraph {
+  margin: 10px 50px 0px 50px;
 }
 
 .rivers {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 40px;
-  margin: 40px 50px 0px 50px;
+  margin: 40px 50px 0px 25px;
 }
 
 .icons {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 40px 50px 50px 50px;
 }
+
+.icon1 {
+  grid-column: 2/3;
+}
+
+.ourrivers {
+  border: solid white;
+  margin: 30px 10px 10px 10px;
+  box-shadow: 0 0 10px black;
+}
+
+/*.icon2 {
+  grid-column: 3/4;
+}*/
 
 /*PAGE 3 FAQ'S - PAGE 3 FAQ'S*/
 .faqs {
