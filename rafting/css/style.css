@@ -73,7 +73,7 @@ h1 {
 .mainnav li {
   flex: 1 1 auto;
   border: 1px solid white;
-  margin: 30px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
   background-color: rgb(179, 215, 236);
 }
 
@@ -82,7 +82,7 @@ h1 {
   text-decoration: none;
   box-sizing: border-box;
   border: 1px solid white;
-  padding: 5px 20px;
+  padding: 10px 40px 10px 40px;
 }
 
 .mainnav a:hover {
@@ -134,7 +134,7 @@ a:active {
 }
 
 .button {
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 5px 20px;
   text-decoration: none;
   background-color: #fcb040;
@@ -227,15 +227,11 @@ h3 {
 }
 
 .icons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  margin: 40px 50px 50px 50px;
-  border: none !important;
+  display: flex;
+  justify-content: center;
+  border: none;
   gap: 20px;
-}
-
-.icon1 {
-  grid-column: 2/3;
+  padding: 50px;
 }
 
 .ourrivers {
