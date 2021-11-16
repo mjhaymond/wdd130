@@ -172,7 +172,7 @@ a:active {
 .enjoy2 {
   grid-row: 2/3;
   grid-column: 1/2;
-  padding: 30px;
+  padding: 0px 30px;
 }
 
 .photo1 {
@@ -189,13 +189,15 @@ a:active {
 .whitewater {
   grid-row: 1/2;
   grid-column: 2/3;
-  margin: 60px 25px 9px 25px;
+  /*margin: 60px 25px 9px 25px;
+  padding: 0px 40px 0px 40px;*/
 }
 
 .whitewater2 {
   grid-row: 2/3;
   grid-column: 2/3;
   padding: 0px 40px;
+  margin: 15px;
 }
 
 .photo2 {
