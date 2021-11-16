@@ -65,7 +65,6 @@ h1 {
 
 .mainnav {
   list-style-type: none;
-  /*display: flex;*/
   text-align: center;
   font-size: 20px;
 }
@@ -90,7 +89,7 @@ h1 {
   background-color: white;
 }
 
-.mainnav a:active {
+.mainnav .active {
   text-decoration: underline;
 }
 .page {
