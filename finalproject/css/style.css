@@ -1,50 +1,283 @@
 /*Final Project CSS style sheet*/
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
-  background-color: white;
-  color: black;
-  max-width: 1000px;
+  font-size: 14px;
+  background-color: rgb(240, 238, 238);
+  font-family: "Rubik", sans-serif;
+  max-width: 960px;
   margin: auto;
-}
-
-header {
-  background-color: white;
-  padding: 20px;
-}
-
-nav {
-  background-color: white;
-  padding: 15px;
-}
-
-main {
-  background-color: rgb(176, 205, 203);
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  padding: 10px 20px 0px 20px;
 }
 
 header,
 footer {
-  background-color: rgb(199, 201, 169);
+  background-color: #376f89;
+  border: 2px solid #0d2241;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  float: left;
+  margin-right: 80px;
+}
+
+main {
+  margin: 1rem auto;
+  background-color: rgb(179, 215, 236);
+  padding: 1rem;
+  color: rgb(13, 34, 65);
+}
+
+main img {
+  box-shadow: 5px 5px 15px black;
+  border: 2px solid white;
+}
+footer {
+  grid-template-columns: 1fr 175px;
+  color: white;
   padding: 20px;
 }
-img {
-  padding: 10px 20px 0px 20px;
+
+h1 {
+  padding: 25px;
+  font-size: 35px;
+  text-align: center;
 }
 
-.imgstyleguide {
-  padding: 10px 20px 0px 20px;
+h2 {
+  font-size: 35px;
+  margin: 30px 50px 0px 50px;
+  text-align: center;
 }
 
-.imglogo {
-  padding: 10px 20px 0px 20px;
-  width: 125px;
+h3 {
+  font-size: 35px;
+  margin: 40px 50px 0px 50px;
+  text-align: center;
+}
+
+.mainnav {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.mainnav li {
+  flex: 1 1 auto;
+  border: 1px solid white;
+  margin: 10px 10px 10px 10px;
+  background-color: rgb(179, 215, 236);
+}
+
+.mainnav a {
+  display: block;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid white;
+  padding: 10px 40px 10px 40px;
+}
+
+.mainnav a:hover {
+  color: rgb(23, 56, 105);
+  background-color: white;
+}
+
+.mainnav .active {
+  text-decoration: underline;
+}
+.page {
+  max-width: 960px;
+}
+
+.logo {
+  width: 0px;
+  height: auto;
+  padding: 8px 8px 8px 30px;
+}
+
+a:link {
+  color: #0d2241;
+}
+
+a:visited {
+  color: #0d2241;
+}
+
+a:active {
+  color: rgb(23, 56, 105);
+}
+
+.social {
+  float: right;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.plantrip {
+  position: absolute;
+  bottom: 40px;
+  right: 50px;
+  box-shadow: 0 0 30px black;
+  color: #0d2241;
+}
+
+.button {
+  border: 2px solid white;
+  padding: 5px 20px;
+  text-decoration: none;
+  background-color: #fcb040;
+  box-sizing: border-box;
+}
+
+.banner a:hover {
+  color: rgb(23, 56, 105);
+  background-color: white;
+}
+
+/*Section two*/
+.two {
+  display: grid;
+  grid-template-rows: 150px 210px;
+  padding: 20px;
+  margin: 30px 0px 0px 0px;
+}
+
+.enjoy {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  /*padding-top: 50px;
+  padding-right: 20px;*/
+}
+
+.enjoy2 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  padding: 0px 30px;
+}
+
+.photo1 {
+  grid-row: 1/2;
+  grid-column: 2;
+}
+
+/*Section 3*/
+.three {
+  display: grid;
+  margin: 50px 20px;
+}
+
+.whitewater {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  /*margin: 60px 25px 9px 25px;
+  padding: 0px 40px 0px 40px;*/
+}
+
+.whitewater2 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  padding: 0px 40px;
+  margin: 15px;
+}
+
+.photo2 {
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+
+.four {
+  margin: 20px;
+}
+/*Section four*/
+.come {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.come2 {
+  box-sizing: border-box;
+}
+
+/*PAGE 2 RIVERS - PAGE 2 RIVERS*/
+
+.paragraph {
+  margin: 10px 50px 0px 50px;
+}
+
+.rivers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin: 40px 50px 0px 25px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  border: none;
+  gap: 20px;
+  padding: 50px;
+}
+
+.ourrivers {
+  border: solid white;
+  margin: 30px 10px 10px 10px;
+  box-shadow: 0 0 10px black;
+}
+
+/*PAGE 3 FAQ'S - PAGE 3 FAQ'S*/
+.faqs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 40px 50px 0px 50px;
+}
+
+h4 {
+  color: #0d2241;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.q1,
+.q2,
+.q3,
+.q4,
+.q5,
+.q6,
+.q7,
+.q8,
+.q9,
+.q10 {
+  background: rgba(255, 255, 255, 0.15);
+  border: 3px solid white;
+  padding: 20px;
+  box-shadow: 5px 5px 15px black;
+  text-align: center;
+}
+
+.callus {
+  text-align: center;
+  padding: 30px;
 }
