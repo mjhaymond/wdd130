@@ -6,64 +6,78 @@
   box-sizing: border-box;
 }
 body {
-  /*Everything on the page*/
-  font-size: 16px; /*Font size for whole page*/
+  font-size: 16px;
   background-color: white;
   font-family: "Lato", sans-serif;
-  max-width: 960px; /*Width of the whole page*/
-  margin: auto; /*Keeps all the content centered on the screen*/
+  max-width: 960px;
+  margin: auto;
 }
 
 header,
 footer {
   background-color: rgb(199, 201, 169);
   display: grid;
-  align-items: center; /*Centers menu links between top and bottom*/
-  justify-content: center; /*Centers content from left to right*/
+  align-items: center;
+  justify-content: center;
+}
+
+.mainnav {
+  list-style-type: none;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
 }
 
 header {
   display: grid;
-  grid-template-columns: 200px 1fr; /*size 200px for each 1fr, as many as will fit in header*/
+  grid-template-columns: 200px 1fr;
 }
+
+.logo {
+  width: 0px;
+  height: auto;
+  padding: 10px 10px 10px 40px;
+}
+
 /*
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}*/
-
+}
+*/
 li {
-  display: inline; /*Removes bullet points & places links in a line*/
-  float: left; /*moves links to the left*/
-  margin-right: 80px; /*the space between links*/
+  display: inline;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  padding: 10px 40px 10px 40px;
 }
 
 main {
-  margin: 5px auto; /*Space between header and body*/
+  margin: 5px auto;
   background-color: rgb(176, 205, 203);
-  padding: 13px; /*Banner centered on body background*/
-  color: black; /*Text color of body*/
+  padding: 13px;
+  color: black;
 }
 
 main img {
-  /*Banner image*/
-  box-shadow: 0px 0px 5px black; /*Image shadow*/
+  box-shadow: 0px 0px 5px black;
   border: 2px solid white;
 }
 
 footer {
   grid-template-columns: 1fr 175px;
   color: rgb(78, 71, 41);
-  padding: 20px; /*height of footer*/
+  padding: 20px;
 }
-
+/*
 h1 {
   padding: 25px;
   font-size: 25px;
   text-align: center;
 }
-/*
+
 h2 {
   font-size: 35px;
   margin: 30px 50px 0px 50px;
@@ -75,47 +89,45 @@ h3 {
   margin: 40px 50px 0px 50px;
   text-align: center;
 }
-*/
+
 .mainnav {
-  /*list-style-type: none;
-  text-align: center;*/
+  list-style-type: none;
+  text-align: center;
   font-size: 20px;
 }
-
-.mainnav li {
-  /*menu links*/
+*/
+.mainnav {
   flex: 1 1 auto;
   border: 1px solid white;
-  margin: 10px 10px 10px 10px; /*space between link boxes*/
-  background-color: #c7c9a9; /*link box color*/
+  margin: 10px 10px 10px 10px;
+  background-color: #c7c9a9;
 }
 
 .mainnav a {
-  display: block; /*creates block around the menu links*/
-  text-decoration: none; /*removes underline from links*/
+  display: block;
+  text-decoration: none;
   box-sizing: border-box;
-  padding: 10px 40px 10px 40px; /*spacing inside link box*/
 }
 
 .mainnav a:hover {
-  color: rgb(78, 71, 41); /*color of text on hover*/
-  background-color: white; /*color of box on hover*/
-}
-
-.mainnav .active {
-  text-decoration: underline; /*menu link is underlined when page is active*/
+  color: rgb(78, 71, 41);
+  background-color: white;
 }
 /*
+.mainnav .active {
+  text-decoration: underline;
+}
+
 .page {
   max-width: 960px;
 }
-*/
+
 .logo {
   width: 0px;
   height: auto;
   padding: 10px 10px 10px 40px;
 }
-/*
+
 a:link {
   color: black;
 }
@@ -141,5 +153,4 @@ a:active {
 .banner a:hover {
   color: rgb(78, 71, 41);
   background-color: white;
-}
-*/
+}*/
