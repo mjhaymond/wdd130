@@ -1,66 +1,69 @@
 /*Final Project CSS style sheet*/
+
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 body {
-  font-size: 16px;
+  /*Everything on the page*/
+  font-size: 16px; /*Font size for whole page*/
   background-color: white;
   font-family: "Lato", sans-serif;
-  max-width: 960px;
-  margin: auto;
+  max-width: 960px; /*Width of the whole page*/
+  margin: auto; /*Keeps all the content centered on the screen*/
 }
 
 header,
 footer {
   background-color: rgb(199, 201, 169);
-  border: 2px solid white;
   display: grid;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /*Centers menu links between top and bottom*/
+  justify-content: center; /*Centers content from left to right*/
 }
 
 header {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 200px 1fr; /*size 200px for each 1fr, as many as will fit in header*/
 }
-
+/*
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-/*
+}*/
+
 li {
-  display: inline;
-  float: left;
-  margin-right: 80px;
+  display: inline; /*Removes bullet points & places links in a line*/
+  float: left; /*moves links to the left*/
+  margin-right: 80px; /*the space between links*/
 }
-*/
+
 main {
-  margin: 1rem auto;
+  margin: 5px auto; /*Space between header and body*/
   background-color: rgb(176, 205, 203);
-  padding: 1rem;
-  color: black;
+  padding: 13px; /*Banner centered on body background*/
+  color: black; /*Text color of body*/
 }
 
 main img {
-  box-shadow: 5px 5px 15px black;
+  /*Banner image*/
+  box-shadow: 0px 0px 5px black; /*Image shadow*/
   border: 2px solid white;
 }
+
 footer {
   grid-template-columns: 1fr 175px;
   color: rgb(78, 71, 41);
-  padding: 20px;
+  padding: 20px; /*height of footer*/
 }
 
 h1 {
   padding: 25px;
-  font-size: 35px;
+  font-size: 25px;
   text-align: center;
 }
-
+/*
 h2 {
   font-size: 35px;
   margin: 30px 50px 0px 50px;
@@ -72,45 +75,47 @@ h3 {
   margin: 40px 50px 0px 50px;
   text-align: center;
 }
-
+*/
 .mainnav {
-  list-style-type: none;
-  text-align: center;
+  /*list-style-type: none;
+  text-align: center;*/
   font-size: 20px;
 }
 
 .mainnav li {
+  /*menu links*/
   flex: 1 1 auto;
   border: 1px solid white;
-  margin: 10px 10px 10px 10px;
-  background-color: rgb(199, 201, 169);
+  margin: 10px 10px 10px 10px; /*space between link boxes*/
+  background-color: #c7c9a9; /*link box color*/
 }
 
 .mainnav a {
-  display: block;
-  text-decoration: none;
+  display: block; /*creates block around the menu links*/
+  text-decoration: none; /*removes underline from links*/
   box-sizing: border-box;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 40px 10px 40px; /*spacing inside link box*/
 }
 
 .mainnav a:hover {
-  color: rgb(78, 71, 41);
-  background-color: white;
+  color: rgb(78, 71, 41); /*color of text on hover*/
+  background-color: white; /*color of box on hover*/
 }
 
 .mainnav .active {
-  text-decoration: underline;
+  text-decoration: underline; /*menu link is underlined when page is active*/
 }
+/*
 .page {
   max-width: 960px;
 }
-
+*/
 .logo {
   width: 0px;
   height: auto;
-  padding: 8px 8px 8px 30px;
+  padding: 10px 10px 10px 40px;
 }
-
+/*
 a:link {
   color: black;
 }
@@ -137,3 +142,4 @@ a:active {
   color: rgb(78, 71, 41);
   background-color: white;
 }
+*/
