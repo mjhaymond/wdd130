@@ -5,6 +5,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 body {
   font-size: 16px;
   background-color: white;
@@ -21,37 +22,37 @@ footer {
   justify-content: center;
 }
 
-.mainnav {
-  list-style-type: none;
-  display: flex;
-  font-size: 20px;
-  justify-content: center;
-}
-
 header {
-  display: grid;
   grid-template-columns: 200px 1fr;
 }
 
-.logo {
-  width: 0px;
-  height: auto;
-  padding: 10px 10px 10px 40px;
+footer {
+  grid-template-columns: 1fr 175px;
+  color: rgb(78, 71, 41);
+  padding: 20px;
 }
 
+#banner {
+  margin: 14px 14px 14px 14px;
+  position: relative;
+  box-shadow: 0px 0px 5px black;
+  border: 2px solid white;
+}
 /*
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+#logo {
+  width: 0px;
+  height: auto;
+  padding: 10px 10px 10px 200px;
 }
 */
-li {
-  display: inline;
-  float: left;
+div a {
   margin: 10px 10px 10px 10px;
+  text-decoration: none;
   box-sizing: border-box;
+  background-color: #c7c9a9;
   padding: 10px 40px 10px 40px;
+  border: 2px solid white;
+  color: #4e4729;
 }
 
 main {
@@ -61,96 +62,18 @@ main {
   color: black;
 }
 
-main img {
-  box-shadow: 0px 0px 5px black;
-  border: 2px solid white;
-}
-
-footer {
-  grid-template-columns: 1fr 175px;
-  color: rgb(78, 71, 41);
-  padding: 20px;
-}
-/*
-h1 {
-  padding: 25px;
-  font-size: 25px;
-  text-align: center;
-}
-
-h2 {
-  font-size: 35px;
-  margin: 30px 50px 0px 50px;
-  text-align: center;
-}
-
-h3 {
-  font-size: 35px;
-  margin: 40px 50px 0px 50px;
-  text-align: center;
-}
-
 .mainnav {
   list-style-type: none;
-  text-align: center;
-  font-size: 20px;
-}
-*/
-.mainnav {
-  flex: 1 1 auto;
-  border: 1px solid white;
-  margin: 10px 10px 10px 10px;
-  background-color: #c7c9a9;
+  position: absolute;
+  float: left;
+  margin: 90px 10px 10px 80px;
 }
 
-.mainnav a {
-  display: block;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-
-.mainnav a:hover {
-  color: rgb(78, 71, 41);
-  background-color: white;
-}
-/*
 .mainnav .active {
   text-decoration: underline;
 }
 
-.page {
-  max-width: 960px;
-}
-
-.logo {
-  width: 0px;
-  height: auto;
-  padding: 10px 10px 10px 40px;
-}
-
-a:link {
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-
-a:active {
-  color: rgb(78, 71, 41);
-}
-
-.social {
-  float: right;
-}
-
-.banner {
-  position: relative;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.banner a:hover {
-  color: rgb(78, 71, 41);
+.mainnav a:hover {
+  color: #4e4729;
   background-color: white;
-}*/
+}
