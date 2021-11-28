@@ -46,7 +46,7 @@ footer {
 }
 
 li {
-  list-style-type: none;
+  margin: 0px 20px 0px 40px;
 }
 
 .mainnav a {
@@ -96,6 +96,7 @@ h2 {
 
 h3 {
   font-size: 20px;
+  padding: 20px 10px 15px 20px;
 }
 
 /*Page 1 Boondock Camping For Beginners*/
@@ -165,13 +166,76 @@ ul li {
   text-align: left;
 }
 
+.equipmentlist {
+  display: grid;
+  grid-template-rows: 40px 630px;
+  margin: 0px 100px 30px 100px;
+  border: 2px solid white;
+}
+
+.equip1 {
+  grid-column: 1/2;
+  padding: 20px 20px 20px 20px;
+}
+
+.equip2 {
+  grid-column: 2/3;
+  padding: 20px 20px 20px 20px;
+}
+
+.pg2-photos {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 20px 10px 20px 50px;
+}
+
+#pg2-photo1 {
+  grid-column: 1/2;
+  border: 2px solid white;
+  box-shadow: 0px 0px 5px black;
+}
+
+#pg2-photo2 {
+  grid-column: 2/3;
+  border: 2px solid white;
+  box-shadow: 0px 0px 5px black;
+}
+
+#equip-explained {
+  padding: 10px 40px 10px 40px;
+}
+
+.ten-items-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px 50px 30px 50px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10 {
+  background: rgba(255, 255, 255, 0.15);
+  border: 3px solid white;
+  box-shadow: 5px 5px 15px black;
+  text-align: center;
+  background-color: white;
+}
+
 /*Page 3 Locations*/
 
 .locations {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  margin: 40px 50px 0px 50px;
+  margin: 10px 50px 30px 50px;
 }
 
 .location1,
@@ -185,7 +249,7 @@ ul li {
   padding: 20px;
   box-shadow: 5px 5px 15px black;
   text-align: center;
-  background-color: #c7c9a9;
+  background-color: white;
 }
 
 #locationimg {
