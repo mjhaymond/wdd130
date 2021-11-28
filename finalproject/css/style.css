@@ -252,7 +252,12 @@ ul li {
   background-color: white;
 }
 
-.locationimg {
+#loc-img1,
+#loc-img2,
+#loc-img3,
+#loc-img4,
+#loc-img5,
+#loc-img6 {
   border: 2px solid white;
   box-shadow: 0px 0px 5px black;
   padding: 10px;
