@@ -296,9 +296,18 @@ ul li {
 
 .recommended-15 {
   display: grid;
-  grid-template-rows: 40px 630px;
   margin: 0px 100px 30px 100px;
   border: 2px solid white;
+}
+
+.recom1 {
+  grid-column: 1/2;
+  padding: 20px 20px 20px 20px;
+}
+
+.recom2 {
+  grid-column: 2/3;
+  padding: 20px 20px 20px 20px;
 }
 
 /*Page 3 Locations*/
