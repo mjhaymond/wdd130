@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  max-width: 960px;
+  margin: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#logo {
+  position: absolute;
+  left: 100px;
+  top: 70px;
+}
+
+.mainnav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}

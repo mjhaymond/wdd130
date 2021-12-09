@@ -32,17 +32,24 @@ footer {
   padding: 20px;
 }
 
+.page {
+  position: relative;
+}
+
 #banner {
-  margin: 14px 14px 14px 14px;
+  margin: 13px 13px 13px 13px;
   /*position: relative;*/
   box-shadow: 0px 0px 5px black;
   border: 2px solid white;
 }
 
 #logo {
-  width: 0px;
+  position: absolute;
+  /*width: 0px;
   height: auto;
-  padding: 20px 10px 20px 50px;
+  padding: 20px 10px 20px 50px;*/
+  left: 80px;
+  top: 220px;
 }
 
 li {
@@ -70,7 +77,8 @@ main {
   list-style-type: none;
   position: absolute;
   float: left;
-  margin: 0px 10px 10px 100px;
+  left: 330px;
+  top: 330px;
 }
 
 .mainnav .active {
