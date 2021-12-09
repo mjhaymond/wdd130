@@ -268,18 +268,11 @@ ul li {
   grid-template-columns: auto;
   margin: 20px 10px 20px 50px;
 }*/
-
-#pg2-photo {
+.pg2-photo {
   grid-column: 1/2;
   border: 2px solid white;
   box-shadow: 0px 0px 5px black;
   margin: 20px 23px 20px 100px;
-}
-
-#pg2-photo2 {
-  grid-column: 2/3;
-  border: 2px solid white;
-  box-shadow: 0px 0px 5px black;
 }
 
 #equip-explained {
