@@ -33,6 +33,10 @@ footer {
   padding: 20px;
 }
 
+#copyright {
+  text-align: left;
+}
+
 #banner {
   margin: 20px 23px 20px 23px;
   /*position: relative;*/
@@ -57,7 +61,7 @@ li {
   box-sizing: border-box;
   background-color: #c7c9a9;
   padding: 10px 40px 10px 40px;
-  border: 2px solid white;
+  border: 1px solid white;
   color: #4e4729;
 }
 
@@ -124,7 +128,7 @@ p {
 #photo1 {
   grid-row: 1/2;
   grid-column: 1/2;
-  border: solid 2px white;
+  border: solid 1px white;
   box-shadow: 0px 0px 5px black;
   margin: 0px 20px;
 }
@@ -152,7 +156,7 @@ p {
 #photo2 {
   grid-row: 1/2;
   grid-column: 2/3;
-  border: solid 2px white;
+  border: solid 1px white;
   box-shadow: 0px 0px 5px black;
 }
 
@@ -175,7 +179,7 @@ form {
   margin: 20px auto;
   width: 600px;
   padding: 1em 1em 2em 2em;
-  border: 2px solid white;
+  border: 1px solid white;
   background-color: #b0cdcb;
   text-align: center;
 }
@@ -239,12 +243,12 @@ ul li {
   display: grid;
   grid-template-rows: 40px 630px;
   margin: 0px 100px 30px 100px;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 .equipmentlist2 {
   margin: 0px 100px 30px 100px;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 .equip1 {
@@ -260,7 +264,7 @@ ul li {
 #pg2-photo1,
 #pg2-photo2 {
   grid-column: 1/2;
-  border: 2px solid white;
+  border: 1px solid white;
   box-shadow: 0px 0px 5px black;
   margin: 20px 23px 20px 100px;
 }
@@ -292,7 +296,7 @@ ul li {
 .item14,
 .item15 {
   background: rgba(255, 255, 255, 0.15);
-  border: 3px solid white;
+  border: 1px solid white;
   box-shadow: 5px 5px 15px black;
   text-align: center;
   background-color: white;
@@ -301,7 +305,7 @@ ul li {
 .recommended-15 {
   display: grid;
   margin: 0px 100px 30px 100px;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 .recom1 {
@@ -330,7 +334,7 @@ ul li {
 .location5,
 .location6 {
   background: rgba(255, 255, 255, 0.15);
-  border: 3px solid white;
+  border: 1px solid white;
   padding: 20px 20px 40px 20px;
   box-shadow: 5px 5px 15px black;
   text-align: center;
@@ -343,7 +347,7 @@ ul li {
 #loc-img4,
 #loc-img5,
 #loc-img6 {
-  border: 2px solid white;
+  border: 1px solid white;
   box-shadow: 0px 0px 5px black;
   padding: 10px;
   margin-top: 10px;
