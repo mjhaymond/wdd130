@@ -40,7 +40,7 @@ footer {
 #banner {
   margin: 20px 23px 20px 23px;
   /*position: relative;*/
-  box-shadow: 0px 0px 5px black;
+  box-shadow: 0 0 5px black;
   border: 1px solid white;
 }
 
@@ -51,7 +51,7 @@ footer {
 }
 
 li {
-  margin: 0px 20px 0px 40px;
+  margin: 0 20px 0 40px;
 }
 
 .mainnav a {
@@ -121,29 +121,29 @@ p {
 .section1 {
   display: grid;
   grid-template-rows: 40px 300px;
-  padding: 0px;
-  margin: 0px 20px 20px 20px;
+  padding: 0;
+  margin: 0 20px 20px 20px;
 }
 
 #photo1 {
   grid-row: 1/2;
   grid-column: 1/2;
   border: solid 1px white;
-  box-shadow: 0px 0px 5px black;
-  margin: 0px 20px;
+  box-shadow: 0 0 5px black;
+  margin: 0 20px;
 }
 
 #section1title {
   grid-row: 1/2;
   grid-column: 2;
   text-align: center;
-  padding: 0px;
+  padding: 0;
 }
 
 #section1text {
   grid-row: 2/3;
   grid-column: 2;
-  padding: 0px 20px 20px 20px;
+  padding: 0 20px 20px 20px;
 }
 
 .section2 {
@@ -157,20 +157,20 @@ p {
   grid-row: 1/2;
   grid-column: 2/3;
   border: solid 1px white;
-  box-shadow: 0px 0px 5px black;
+  box-shadow: 0 0 5px black;
 }
 
 #section2title {
   grid-row: 1/2;
   grid-column: 1;
   text-align: center;
-  padding: 0px;
+  padding: 0;
 }
 
 #section2text {
   grid-row: 2/3;
   grid-column: 1;
-  padding: 0px 30px 20px 0px;
+  padding: 0 30px 20px 0;
 }
 
 /*EMAIL FORM******EMAIL FORM*****EMAIL FORM*/
@@ -242,12 +242,12 @@ ul li {
 .equipmentlist {
   display: grid;
   grid-template-rows: 40px 630px;
-  margin: 0px 100px 30px 100px;
+  margin: 0 100px 30px 100px;
   border: 1px solid white;
 }
 
 .equipmentlist2 {
-  margin: 0px 100px 30px 100px;
+  margin: 0 100px 30px 100px;
   border: 1px solid white;
 }
 
@@ -265,7 +265,7 @@ ul li {
 #pg2-photo2 {
   grid-column: 1/2;
   border: 1px solid white;
-  box-shadow: 0px 0px 5px black;
+  box-shadow: 0 0 5px black;
   margin: 20px 23px 20px 100px;
 }
 
@@ -304,7 +304,7 @@ ul li {
 
 .recommended-15 {
   display: grid;
-  margin: 0px 100px 30px 100px;
+  margin: 0 100px 30px 100px;
   border: 1px solid white;
 }
 
@@ -348,7 +348,7 @@ ul li {
 #loc-img5,
 #loc-img6 {
   border: 1px solid white;
-  box-shadow: 0px 0px 5px black;
+  box-shadow: 0 0 5px black;
   padding: 10px;
   margin-top: 10px;
   background-color: #9da767;
