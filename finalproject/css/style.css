@@ -20,6 +20,7 @@ footer {
   display: grid;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 header {
@@ -30,10 +31,6 @@ footer {
   grid-template-columns: 1fr 175px;
   color: rgb(78, 71, 41);
   padding: 20px;
-}
-
-.page {
-  position: relative;
 }
 
 #banner {
